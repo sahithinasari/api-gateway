@@ -9,7 +9,19 @@ spring:
       discovery:
         locator:
           enabled: true
-          lower-case-service-id: true  # Converts service IDs to lowercase (recommended)
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins:
+              - "http://localhost:3000"
+            allowedMethods:
+              - "GET"
+              - "POST"
+              - "PUT"
+              - "DELETE"
+            allowedHeaders: "*"
+            allowCredentials: true
       routes:
         - id: user-service
           uri: lb://USER-MANAGEMENT-SYSTEM
