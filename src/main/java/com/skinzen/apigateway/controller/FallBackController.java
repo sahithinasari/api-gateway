@@ -1,4 +1,4 @@
-package com.redshift.apigateway.controller;
+package com.skinzen.apigateway.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

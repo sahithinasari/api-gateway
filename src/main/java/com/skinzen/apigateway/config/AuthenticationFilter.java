@@ -1,6 +1,6 @@
-package com.redshift.apigateway.config;
+package com.skinzen.apigateway.config;
 
-import com.redshift.apigateway.util.JwtUtil;
+import com.skinzen.apigateway.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;

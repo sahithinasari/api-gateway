@@ -1,4 +1,4 @@
-package com.redshift.apigateway;
+package com.skinzen.apigateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

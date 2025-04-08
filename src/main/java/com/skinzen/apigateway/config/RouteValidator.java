@@ -1,4 +1,4 @@
-package com.redshift.apigateway.config;
+package com.skinzen.apigateway.config;
 
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.stereotype.Component;

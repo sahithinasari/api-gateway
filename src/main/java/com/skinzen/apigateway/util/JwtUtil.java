@@ -1,4 +1,4 @@
-package com.redshift.apigateway.util;
+package com.skinzen.apigateway.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
